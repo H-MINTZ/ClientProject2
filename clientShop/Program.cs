@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using clientShop.GUI;
 
 namespace clientShop
 {
@@ -17,7 +18,7 @@ namespace clientShop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAllOrders());
+            Application.Run(new FrmAllProducts());
         }
     }
 }

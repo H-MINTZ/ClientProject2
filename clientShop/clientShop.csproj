@@ -85,11 +85,11 @@
     <Compile Include="GUI\FrmAllShipping.Designer.cs">
       <DependentUpon>FrmAllShipping.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\FrmAiiProducts.cs">
+    <Compile Include="GUI\FrmAllProducts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\FrmAiiProducts.Designer.cs">
-      <DependentUpon>FrmAiiProducts.cs</DependentUpon>
+    <Compile Include="GUI\FrmAllProducts.Designer.cs">
+      <DependentUpon>FrmAllProducts.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Connect.cs" />
     <Compile Include="Model\Customers.cs" />
@@ -109,8 +109,8 @@
     <EmbeddedResource Include="GUI\fmrAllOrders.resx">
       <DependentUpon>fmrAllOrders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\FrmAiiProducts.resx">
-      <DependentUpon>FrmAiiProducts.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\FrmAllProducts.resx">
+      <DependentUpon>FrmAllProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\FrmAllCustomer.resx">
       <DependentUpon>FrmAllCustomer.cs</DependentUpon>

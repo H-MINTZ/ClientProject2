@@ -22,7 +22,12 @@ namespace clientShop.GUI
 
         private async void FrmAllProducts_Load(object sender, EventArgs e)
         {
-            dgvAllProducts.DataSource = await con.GetAllProducts();
+            
+        }
+
+        private async void FrmAllProducts_Load_1(object sender, EventArgs e)
+        {
+dgvAllProducts.DataSource = await con.GetAllProducts();
         }
     }
 }
